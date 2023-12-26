@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Content from '../components/content.astro'
+---
+
+<Layout>
+	<main>
+        <header slot="header">
+            welcome sur le test d'astro
+        </header>
+        <Content title="Le grand test" nom="Mohamed"/>
+        <a href="./marck/test">Go check marckdown</a>
+        <footer slot="footer">
+            test footer
+        </footer>
+	</main>
+</Layout>

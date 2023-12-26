@@ -1,0 +1,16 @@
+---
+interface Props  {
+    title: string
+    nom: string
+    greeting: string
+}
+    const {title, nom} = Astro.props
+    const {greeting} = "Salut"
+---
+
+<section>
+    <div>
+        <h1>{title}</h1>
+        <p>{greeting} {nom}</p>
+    </div>
+</section>
